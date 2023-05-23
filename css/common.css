@@ -216,17 +216,10 @@ h2 {
     font-size: 12px;
   }
   .casual_text_info {
-    font-family: 'Georgia', sans-serif;
-    font-weight: 400;
     font-size: 16px;
-    line-height: 150%;
-    color: var(--main-text-color);
   }
   .casual_bold_text {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 700;
     font-size: 16px;
-    line-height: 150%;
   }
 }
 .classic_button {

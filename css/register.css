@@ -1,0 +1,31 @@
+.register_warning {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: #e8101905;
+  border: 2px solid var(--warning-color);
+  border-radius: 10px;
+  margin-bottom: 50px;
+}
+.register_warning_title {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 150%;
+  color: var(--warning-color);
+}
+.register_warning_text {
+  font-family: 'Georgia', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+}
+@media (max-width: 520px) {
+  .register_warning_title {
+    font-size: 16px;
+  }
+  .register_warning_text {
+    font-size: 16px;
+  }
+}
