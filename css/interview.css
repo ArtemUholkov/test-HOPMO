@@ -1,0 +1,54 @@
+.inteview_main_image {
+  display: block;
+  max-width: 740px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.interview_image_info {
+  margin-bottom: 30px;
+}
+.interview_casual_text_info {
+  margin-bottom: 30px;
+}
+.interview_casual_bold_text {
+  margin-bottom: 30px;
+}
+.interview_decoration_line {
+  margin-bottom: 30px;
+}
+.interview_casual_bold_text_margin10 {
+  margin-bottom: 10px;
+}
+.interview_casual_text_info_margin15 {
+  margin-bottom: 15px;
+}
+.interview_casual_bold_text_margin30 {
+  margin-bottom: 30px;
+}
+.nomargin_image {
+  margin-bottom: 0px;
+}
+.what-is-nft {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: #096ffa0d;
+  border: 2px solid var(--main-accent-color);
+  border-radius: 0px 0px 10px 10px;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+.what-is-nft__title {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 150%;
+  color: var(--main-accent-color);
+}
+.what-is-nft__text {
+  font-family: 'Georgia';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+}

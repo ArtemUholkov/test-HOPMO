@@ -1,6 +1,5 @@
 * {
   box-sizing: border-box;
-  font-family: 'Baloo 2', cursive;
   font-size: 14px;
   scroll-margin-top: 64px;
 }
@@ -126,6 +125,8 @@ table {
   --main-text-color: #323232;
   --comments-accent-color: #cccccc;
   --light-text: #ffffff;
+  --links-hover-color: #7a7a7a;
+  --uncommon-decorations: #d8d8d8;
 }
 /*COLOR VARIABLES END*/
 
@@ -136,3 +137,71 @@ html {
 /* font-family: 'Noto Sans Georgian', sans-serif;
 font-family: 'Open Sans', sans-serif;
 font-family: 'Roboto', sans-serif; */
+h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 49px;
+  margin-bottom: 20px;
+}
+.common_container {
+  max-width: 1070px;
+  margin: 0 auto;
+}
+@media (max-width: 1090px) {
+  .common_container {
+    margin: 0 14px;
+  }
+}
+@media (max-width: 520px) {
+  h1 {
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+  }
+  .common_container {
+    margin: 0 10px;
+  }
+}
+.global-section_wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+.usual_sections {
+  max-width: 740px;
+  width: 100%;
+}
+h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+}
+.image_info {
+  font-family: 'Open Sans', sans-serif;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: var(--main-text-color);
+}
+.casual_text_info {
+  font-family: 'Georgia', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: var(--main-text-color);
+}
+.casual_bold_text {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 150%;
+}
+.accent_color_change {
+  color: var(--main-accent-color);
+  font-weight: 700;
+}

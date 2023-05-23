@@ -1,0 +1,51 @@
+.quote_decoration_line {
+  width: 100%;
+  height: 1px;
+  background-color: var(--uncommon-decorations);
+  margin-bottom: 20px;
+}
+.interviewer_info_wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.interviewer-photo-info_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+}
+.interviewer_author_photo {
+  width: 40px;
+  height: 40px;
+}
+.interviewer_author_info {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.interviewer_author_name {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 100%;
+}
+.interviewer_author_tag {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 100%;
+}
+.interviewer_media_links {
+  display: flex;
+  align-items: center;
+  gap: 2.5px;
+}
+.interviewe_media_link {
+  width: 25px;
+  height: 25px;
+}
+.interviewer_media_link_item {
+  padding: 5px;
+}

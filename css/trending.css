@@ -1,0 +1,30 @@
+.trending {
+  max-width: 300px;
+  width: 100%;
+}
+.trending_title {
+  margin-bottom: 15px;
+}
+.trending_items__wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.trending_item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+}
+.trending_item__image {
+  max-width: 100px;
+  width: 100%;
+  max-height: 75px;
+}
+.trending_item__description {
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  line-height: 22px;
+  color: #000000;
+}
