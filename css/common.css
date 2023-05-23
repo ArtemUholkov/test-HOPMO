@@ -120,11 +120,12 @@ table {
 
 /*COLOR VARIABLES START*/
 :root {
-  --main-bg-color: #21482e;
-  --sub-bg-color: #232426;
-  --usual-decorations: #faaa1e;
-  --main-text-color: #ffffff;
-  --footer-color: #0d492c;
+  --main-bg-color: #0a1633;
+  --main-accent-color: #096ffa;
+  --warning-color: #e81019;
+  --main-text-color: #323232;
+  --comments-accent-color: #cccccc;
+  --light-text: #ffffff;
 }
 /*COLOR VARIABLES END*/
 
@@ -132,3 +133,6 @@ table {
 html {
   scroll-behavior: smooth;
 }
+/* font-family: 'Noto Sans Georgian', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif; */
