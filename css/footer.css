@@ -1,0 +1,64 @@
+footer {
+  background-color: var(--main-bg-color);
+  margin-top: 30px;
+  padding: 30px 0;
+}
+.footer_container {
+  max-width: 55%;
+  width: 100%;
+  margin: 0 auto;
+}
+.footer_img-socials_wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.footer_logo {
+  width: 276px;
+  height: 30px;
+}
+.terms_title {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 14px;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+h4 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 14px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-bottom: 5px;
+}
+.privacy_policy_text {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 10px;
+  line-height: 160%;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+@media (max-width: 1020px) {
+  .footer_container {
+    max-width: 100%;
+    padding-left: 14px;
+    padding-right: 14px;
+  }
+}
+@media (max-width: 520px) {
+  .footer_container {
+    max-width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .footer_logo {
+    width: 160px;
+    height: 18px;
+  }
+}

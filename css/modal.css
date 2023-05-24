@@ -1,0 +1,25 @@
+.modal-header {
+  border: 0;
+}
+.modal-footer {
+  border: 0;
+}
+form {
+  margin: 20px;
+}
+.form_button {
+  margin: 0 auto;
+  width: 100%;
+  height: 40px;
+  border: 0;
+
+  background-color: #040877;
+  transition: all 0.3s;
+  border-radius: 20px;
+  color: white;
+}
+.form_button:hover {
+  background-color: var(--main-bg-color);
+  transition: all 0.3s;
+  color: white;
+}

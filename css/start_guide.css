@@ -126,6 +126,9 @@
     max-width: 100%;
     width: 100%;
   }
+  .start_guide_step_wrapper:nth-of-type(even) {
+    flex-direction: row-reverse;
+  }
   .start_guide_step__img {
     max-width: 100%;
     width: 100%;
