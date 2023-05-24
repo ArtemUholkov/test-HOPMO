@@ -4,6 +4,8 @@ header {
   align-items: center;
   background-color: var(--main-bg-color);
   margin-bottom: 30px;
+  position: fixed;
+  width: 100%;
 }
 
 .header_container {
@@ -113,6 +115,7 @@ header {
 }
 
 .popup.open {
+  position: fixed;
   left: 0;
   display: flex;
   animation-duration: 0.5s;
@@ -392,6 +395,7 @@ header {
   header {
     height: 92px;
   }
+
   .logo_wrapper {
     width: 230px;
     top: 18px;

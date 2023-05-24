@@ -79,6 +79,7 @@ td {
 body {
   line-height: 1;
   overflow-x: hidden;
+  position: relative;
 }
 
 ol,

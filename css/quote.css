@@ -49,3 +49,16 @@
 .interviewer_media_link_item {
   padding: 5px;
 }
+.quote {
+  padding-top: 210px;
+}
+@media (max-width: 800px) {
+  .quote {
+    padding-top: 122px;
+  }
+}
+@media (max-width: 520px) {
+  .quote {
+    padding-top: 112px;
+  }
+}
