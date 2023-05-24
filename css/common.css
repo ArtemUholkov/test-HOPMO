@@ -241,6 +241,10 @@ h2 {
   margin-bottom: 30px;
 }
 .classic_button:hover {
-  background-color: #094498;
+  background-color: #0038ff;
+  transition: all 0.5s;
+}
+.classic_button:active {
+  background-color: #0750b5;
   transition: all 0.5s;
 }
