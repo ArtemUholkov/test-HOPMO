@@ -1,0 +1,75 @@
+.comments_title {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 150%;
+  color: #000000;
+}
+
+.comments_wrapper {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 15px;
+}
+.photo_wrappper {
+  width: 41px;
+  height: 41px;
+}
+.comments_photo_item {
+  width: 41px;
+  height: 41px;
+}
+.comments_comment_info_wrapper {
+  display: flex;
+  flex-direction: column;
+}
+.comments_comment_info_name-time_wrapper {
+  display: flex;
+  gap: 3px;
+  align-items: center;
+}
+.comments_comment_info_name {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
+}
+.comments_comment_info_time {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+
+  color: #cccccc;
+}
+.comments_comment_text {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  line-height: 22px;
+  color: var(--main-text-color);
+}
+.comments_comment_likes_wrapper {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.comments_comment_likes_icon {
+  height: 17px;
+  width: 14px;
+  opacity: 0.2;
+}
+.comments_comment_likes_counter {
+  font-family: 'Helvetica', sans-serif;
+  font-size: 14px;
+  line-height: 150%;
+  color: #000000;
+  opacity: 0.2;
+}
+.register_from_comment {
+  text-decoration: none;
+}
+.reply_comment {
+  margin-left: 60px;
+}

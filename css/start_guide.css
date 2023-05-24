@@ -86,24 +86,7 @@
   background-color: white;
   filter: drop-shadow(0px 10px 50px rgba(0, 0, 0, 0.1));
 }
-.step_third_image {
-}
-/* .third_step_image {
-  display: block;
-  height: 300px;
-  width: 300px;
 
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  filter: drop-shadow(0px 10px 50px rgba(0, 0, 0, 0.1));
-  border-radius: 50%;
-  background-color: white;
-  overflow: hidden;
-  background-image: url('../img/start-guide/third-step-call.jpg');
-  background-repeat: no-repeat;
-  background-position: center bottom;
-} */
 .advertisment_title {
   font-family: 'Open Sans';
   font-weight: 700;
